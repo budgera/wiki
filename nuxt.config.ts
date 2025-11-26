@@ -6,10 +6,11 @@ export default defineNuxtConfig({
     route: '/_studio', // default
     // Your configuration
     repository: {
+      private: false,
       provider: 'github', // default: only GitHub supported currently
       owner: 'melishev', // your GitHub owner
-      repo: 'docus', // your GitHub repository name
-      branch: 'main',
+      repo: 'budgera-wiki', // your GitHub repository name
+      branch: 'master',
       rootDir: '' // optional: location of your content app
     }
   }
