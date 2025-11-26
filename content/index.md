@@ -6,7 +6,7 @@ seo:
 
 ::u-page-hero
 #title
-Создавайте прекрасные документации с Markdown 🔥
+Создавайте прекрасные документации с Markdown 13
 
 #description
 Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
