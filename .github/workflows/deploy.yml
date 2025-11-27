@@ -49,6 +49,6 @@ jobs:
           token: ${{ secrets.GH_PAT_TRIGGER_DEPLOY }}
           repository: melishev/budgera
           event-type: deploy-wiki
-          client-payload: '{"image_tag": "${{ steps.meta.outputs.tags }}"}'
+          client-payload: '{"image_tag": ${{ toJSON(steps.meta.outputs.tags) }}}'
 
 
