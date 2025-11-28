@@ -19,7 +19,7 @@ seo:
   ---
   color: neutral
   size: xl
-  to: /getting-started/installation
+  to: /first-steps/initial-account-setup
   trailing-icon: i-lucide-arrow-right
   ---
   Перейти
