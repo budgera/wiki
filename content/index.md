@@ -24,6 +24,7 @@ description: Узнайте как правильно начать вести у
 to: /first-steps/initial-account-setup
 variant: soft
 class: group col-span-2 lg:col-span-1
+---
 ::::
 
 ::::u-page-card
@@ -34,6 +35,7 @@ description: Узнайте обо всех возможных отчётах и
 to: /analytics-and-reports/Plans
 variant: soft
 class: group col-span-2 lg:col-span-1
+---
 ::::
 :::
 ::
