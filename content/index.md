@@ -14,32 +14,35 @@ seo:
 #headline
 Максимально подробный
 ::
+
 ::u-page-section
-::u-page-grid
-::::u-page-card
----
-spotlight: true
-to: /first-steps/initial-account-setup
-variant: soft
-class: group col-span-2 lg:col-span-1
----
-#title
-Первые шаги [в Дзен-Мани]{.text-primary}
+  :::u-page-grid
+    ::::u-page-card
+    ---
+    spotlight: true
+    class: group col-span-2 lg:col-span-1
+    to: /first-steps/initial-account-setup
+    variant: soft
+    ---
+    #title
+    Первые шаги [в Дзен-Мани]{.text-primary}
 
-#description
-Узнайте как правильно начать вести учет личных финансов и использовать приложение на максимум
-::::
+    #description
+    Узнайте как правильно начать вести учет личных финансов и использовать приложение на максимум
+    ::::
 
-::::u-page-card
----
-spotlight: true
-to: /analytics-and-reports/plans
-variant: soft
-class: group col-span-2 lg:col-span-1
----
-#title
-Отчёты и аналитика [в Дзен-Мани]{.text-primary}
+    ::::u-page-card
+    ---
+    spotlight: true
+    class: group col-span-2 lg:col-span-1
+    to: /analytics-and-reports/plans
+    variant: soft
+    ---
+    #title
+    Отчёты и аналитика [в Дзен-Мани]{.text-primary}
 
-#description
-Узнайте обо всех возможных отчётах и как вести аналитику
-::::
+    #description
+    Узнайте обо всех возможных отчётах и как вести аналитику
+    ::::
+  :::
+::
