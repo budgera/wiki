@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   studio: {
     // Studio admin login route
-    route: '/_studio', // default
+    route: '/admin', // default
     // Your configuration
     repository: {
       private: false,

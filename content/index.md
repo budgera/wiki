@@ -44,7 +44,7 @@ seo:
     #description
     Узнайте обо всех возможных отчётах и как вести аналитику
     ::::
-    
+
     ::::u-page-card
     ---
     spotlight: true

@@ -2,7 +2,8 @@
   "name": "docus-starter",
   "scripts": {
     "dev": "nuxt dev --extends docus",
-    "build": "nuxt build --extends docus"
+    "build": "nuxt build --extends docus",
+    "lint": "mdclint content"
   },
   "dependencies": {
     "@nuxt/content": "3.9.0",
@@ -10,5 +11,8 @@
     "docus": "5.4.1",
     "nuxt": "4.2.2",
     "nuxt-studio": "1.0.0"
+  },
+  "devDependencies": {
+    "mdclint": "0.1.2"
   }
 }
