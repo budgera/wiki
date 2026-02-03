@@ -1,5 +1,5 @@
 {
-  "name": "docus-starter",
+  "name": "@budgera/wiki",
   "scripts": {
     "dev": "nuxt dev --extends docus",
     "build": "nuxt build --extends docus",

@@ -13,8 +13,8 @@ export default defineNuxtConfig({
     repository: {
       private: false,
       provider: 'github', // default: only GitHub supported currently
-      owner: 'melishev', // your GitHub owner
-      repo: 'budgera-wiki', // your GitHub repository name
+      owner: 'budgera', // your GitHub owner
+      repo: 'wiki', // your GitHub repository name
       branch: 'master',
       rootDir: '', // optional: location of your content app
     },
@@ -23,6 +23,6 @@ export default defineNuxtConfig({
     },
   },
   ogImage: {
-    fonts: ['Manrope:700']
-  }
+    fonts: ['Manrope:700'],
+  },
 })
