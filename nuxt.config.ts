@@ -1,11 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  css: ['~/assets/css/main.css'],
+  modules: ['@nuxt/ui', '@nuxt/content', 'nuxt-studio'],
+  compatibilityDate: '2025-05-15',
+  app: {
+    baseURL: '/wiki/',
+  },
   site: {
     name: 'Budgera',
   },
-  compatibilityDate: '2025-05-15',
-  modules: ['@nuxt/ui', '@nuxt/content', 'nuxt-studio'],
-  css: ['~/assets/css/main.css'],
   studio: {
     // Studio admin login route
     route: '/admin', // default
